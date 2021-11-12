@@ -1,0 +1,64 @@
+#main_head{
+    background-color: #fef5ed;
+    width: 100%;
+    height: 150px;
+    padding: 25px;
+    
+}
+
+#logo{
+
+    position: absolute;
+    border: 5px;
+    border-style: solid;
+    margin-bottom: -5px;
+}
+#content{
+    background-color: rgb(247, 155, 122);
+    height: 100%;
+    width: auto;
+
+}
+html, body{
+    height: 100%;
+    margin: 0px;
+}
+#table_content{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15%;
+}
+
+#table_content_recipe{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+}
+.imgdiv{
+    margin: 20px;
+    border: 5px;
+    border-style: solid;	
+}
+
+.imgdiv img {
+	object-fit:cover
+}
+.imglabel
+{
+    font-size: 40px;
+    text-align: right;
+    font-family: cursive;
+    margin-left: 120px;
+
+}
+
+.recipe{
+	margin: 20px;
+	background-color: #FEF5ED;
+	font-size: 15px;
+	padding-left:12px
+}
+
+li {
+	margin-bottom:2px;
+}

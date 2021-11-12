@@ -1,2 +1,3 @@
 # Food-Recipe-Proj
-Updating Read me
+Welcome to the Kanchan's Kitchen.
+
