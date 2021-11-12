@@ -11,19 +11,36 @@
     <div id = "main_head" >
 
         <div  id = "logo">
-            <a>  
+            <a href="index.html">  
                 <img src="logo.jpeg" width = "200" height = "200" alt="">
             </a>
+        </div>
+
+        <div id="menu" class="menu-nav">
+            <nav> 
+                <ul>
+                <li><a id= "home" href="index.html">Home</a> </li>
+                <li> <div class="dropdown">
+                        <button class="dropbtn">Recipe</button>
+                        <div class="dropdown-content">
+                          <a href="recipe1.html">Sindhi Kadhi</a>
+                          <a href="recipe2.html">Dal Pakwan</a>
+                        </div>
+                      </div>
+                </li> 
+                <li><a id= "contact" href="contact.html" >Contact Me</a></li>
+                </ul>   
+            </nav>
         </div>
     </div>
     <div id="content">
 
-        <table id="table_content_recipe">
+        <table id="table_content_recipe" >
             <tr>
-                <td>
+                <td style="padding-top: 6%;">
 
                     <label for="image2" class="imglabel">Dal Pakwan</label>
-                    <div  id = "image2" class="imgdiv">
+                    <div  id = "image2" class="imgdiv" >
                         <a href="recipe2.html">
                             <img src="dal pakkan.jpeg" width = "400" height = "275" alt="">
                         </a>
