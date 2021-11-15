@@ -12,6 +12,7 @@
     border: 5px;
     border-style: solid;
     margin-bottom: -5px;
+    height: 200px;	
 }
 #menu{
     margin-left: 30%;
@@ -97,7 +98,9 @@ html, body{
 .imgdiv{
     margin: 20px;
     border: 5px;
-    border-style: solid;	
+    border-style: solid;
+    height: 275px;
+	
 }
 
 .imgdiv img {
